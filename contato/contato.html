@@ -1,62 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
   <title>Contato</title>
+  
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom styles for this template -->
+  <link href="../css/half-slider.css" rel="stylesheet">
+  <link href="../css/header.css" rel="stylesheet">
+  
+  
 </head>
 <body>
   
-<form name="contactform" method="post" action="../php/send_form_email.php">
-<table width="450px">
-<tr>
- <td valign="top">
-  <label for="first_name">First Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="last_name">Last Name *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="email">Email Address *</label>
- </td>
- <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="telephone">Telephone Number</label>
- </td>
- <td valign="top">
-  <input  type="text" name="telephone" maxlength="30" size="30">
- </td>
-</tr>
-<tr>
- <td valign="top">
-  <label for="comments">Comments *</label>
- </td>
- <td valign="top">
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
- </td>
-</tr>
-<tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
- </td>
-</tr>
-</table>
-</form>
-
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">David Ferreira</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Serviços</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato/contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <header>
+    <div class="carousel-item active"  style="background-image: url('../img/bg-01.jpg')">
+      
+      <div class="header">
+        <h3>Front-end Developer</h3>
+        <p>This is a description for the first slide.</p>
+      </div>
+      
+    </div>
+  </header>
+  
+  <!-- Page Content -->
+  <section class="py-5">
+    <div class="container">
+      <h1>Entre em Contato</h1>
+      
+      
+      <form name="contactform" method="post" action="../php/send_form_email.php">
+        <table width="450px">
+          <tr>
+            <td valign="top">
+              <label for="first_name">Nome *</label>
+            </td>
+            <td valign="top">
+              <input  type="text" name="first_name" maxlength="50" size="30">
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <label for="last_name">Sobrenome *</label>
+            </td>
+            <td valign="top">
+              <input  type="text" name="last_name" maxlength="50" size="30">
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <label for="email">Email *</label>
+            </td>
+            <td valign="top">
+              <input  type="text" name="email" maxlength="80" size="30">
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <label for="telephone">Celular</label>
+            </td>
+            <td valign="top">
+              <input  type="text" name="telephone" maxlength="30" size="30">
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <label for="comments">Comentário *</label>
+            </td>
+            <td valign="top">
+              <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align:center">
+              <input type="submit" value="Submit">   
+            </td>
+          </tr>
+        </table>
+      </form>
+      
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Davidfdesousa 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+  
+  <!-- Bootstrap core JavaScript -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenLite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/easing/EasePack.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/CSSPlugin.min.js"></script>
+  
+  
+  <script>
+    
+    TweenLite.from('#bg', 1, {opacity:0});
+    TweenLite.from('#logo', 1, {x:-200, rotation:-90, scale:0, ease:Back.easeOut, delay:1});
+    TweenLite.from('.navbar-brand', 1, {x:-200, opacity:0, ease:Elastic.easeOut, delay:.5});
+    TweenLite.from('.header', .8, {opacity:0, y:200, ease:Elastic.easeOut, delay:1});
+    
+    /*
+    This works, but not as good as a timeline (see 2-timeline-control.html).
+    It's difficult to update durations and delays.
+    Impossible to play, pause, reverse the entire sequence (without a timeline).
+    */
+    
+  </script>
+  
+  
+  
 </body>
 </html>
