@@ -17,6 +17,10 @@
   <link href="css/half-slider.css" rel="stylesheet">
   <link href="css/header.css" rel="stylesheet">
   
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
 </head>
 
 <body>
@@ -73,7 +77,18 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Davidfdesousa 2019</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Davidfdesousa 2019
+          
+        </p>
+
+        <p class="icons">
+          
+          <a class="icons-color" href="##" target="_blank"><i class="fab fa-github-alt"></i></a>
+          <a class="icons-color" href="##" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a class="icons-color" href="##" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a class="icons-color" href="##" target="_blank"><i class="fab fa-facebook"></i></a>
+   
+        </p>
       </div>
       <!-- /.container -->
     </footer>
@@ -85,20 +100,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/easing/EasePack.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/CSSPlugin.min.js"></script>
     
-
+    
     <script>
-
+      
       TweenLite.from('#bg', 1, {opacity:0});
       TweenLite.from('#logo', 1, {x:-200, rotation:-90, scale:0, ease:Back.easeOut, delay:1});
       TweenLite.from('.navbar-brand', 1, {x:-200, opacity:0, ease:Elastic.easeOut, delay:.5});
       TweenLite.from('.header', .8, {opacity:0, y:200, ease:Elastic.easeOut, delay:1});
-    
+      
       /*
-        This works, but not as good as a timeline (see 2-timeline-control.html).
-        It's difficult to update durations and delays.
-        Impossible to play, pause, reverse the entire sequence (without a timeline).
+      This works, but not as good as a timeline (see 2-timeline-control.html).
+      It's difficult to update durations and delays.
+      Impossible to play, pause, reverse the entire sequence (without a timeline).
       */
-    
+      
     </script>
     
   </body>
