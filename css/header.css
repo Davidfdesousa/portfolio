@@ -10,13 +10,10 @@
   text-align: center;
 }
 
-
 .icons {
   color: #fff;
   font-size: 25px;
   text-align: center;
-  
-
 }
 
 .icons-color {
@@ -25,14 +22,20 @@
   padding: 5px;
   margin: 5px;
   transition: font-size ease .5;
-
 }
 
 .icons-color:hover {
   text-decoration: none;
   color: grey;
-  font-size: 30px;
-  
 }
 
+.text-decoration {
+  text-decoration: none;
+  color: #000;
+}
+
+.text-decoration:hover {
+  text-decoration: none;
+  color: grey;
+}
 
