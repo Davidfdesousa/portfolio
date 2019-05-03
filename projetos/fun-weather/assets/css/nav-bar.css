@@ -1,0 +1,66 @@
+.navbar-default {
+  background-color: transparent;
+  color: #e1e1e1;
+  border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #e1e1e1;
+  font-size: 16px;
+  
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  color: #fff;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+  color: #fff;
+  background-color: transparent;
+  
+}
+
+.navbar-default .navbar-brand {
+  color: #e1e1e1;
+  font-weight: 800;
+}
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 15px 150px 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 992px) { 
+  .navbar-default .navbar-nav > li > a {    
+    color: #e1e1e1;
+    font-size: 11px;
+  }  
+  
+  .navbar-default .navbar-toggle {
+    border: none;
+  }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) { 
+  .navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 105px 15px 15px;
+    font-size: 15px;
+    line-height: 20px;    
+  }
+  
+  .navbar-default .navbar-toggle {
+    border: none;
+    
+  }
+}
