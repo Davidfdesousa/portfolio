@@ -5,6 +5,7 @@ body {
   background-color: #fff;
 }
 
+/* section widgets */
 
 .widgets-title h2 {
   text-align: center;
@@ -36,6 +37,10 @@ body {
   height: 659px;
 }
 
+/* fim section widgets */
+
+
+/* section footer  */
 
 footer{
   background-color: #353854;
@@ -62,55 +67,69 @@ hr {
 }
 
 
-
+/* botão de volta ao topo */
 .scrollup {
-
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
-    opacity: .3;
-    position: fixed;
-    bottom: 20px;
-    right: 25px;
-    color: #fff;
-    cursor: pointer;
-    background-color: #000;
-    z-index: 1000;
-    transition: opacity .5s,background-color .5s;
-    -moz-transition: opacity .5s,background-color .5s;
-    -webkit-transition: opacity .5s,background-color .5s;
-
+  
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  opacity: .3;
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #000;
+  z-index: 1000;
+  transition: opacity .5s,background-color .5s;
+  -moz-transition: opacity .5s,background-color .5s;
+  -webkit-transition: opacity .5s,background-color .5s;
+  
 }
 
-.fa {
+.scrollup i {
+  
+  font-size: 13px;
+  position: absolute;
+  opacity: 1;
+  color: #fff;
+  left: 50%;
+  top: 50%;
+  margin-top: -7px;
+  margin-left: -6px;
+  text-decoration: none;
+  
+}
 
+
+.fa {
+  
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
-      font-size: 14px;
+  font-size: 14px;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  
 }
-
 
 /* xs */
 @media (min-width: 320px) and (max-width: 479px) { 
   .footer-logo {
     display: inline-block;
     width: 127px;
-  
+    
   }
   
   .navbar-brand-footer {
-  
+    
     float: left;
     height: 50px;
     padding: 15px 0px 0px 0;
     font-size: 15px;
     line-height: 20px;
-  
+    
   }
   
 }
@@ -119,17 +138,17 @@ hr {
   .footer-logo {
     display: inline-block;
     width: 127px;
-  
+    
   }
   
   .navbar-brand-footer {
-  
+    
     float: left;
     height: 50px;
     padding: 15px 0px 0px 0;
     font-size: 15px;
     line-height: 20px;
-  
+    
   }
   
 }
@@ -137,8 +156,32 @@ hr {
 /* sm */
 @media (min-width: 768px) and (max-width: 992px) { 
   
-
-
+  
+  
 }
+
+
+
+/* fim section footer  */
+
+
+/* botão feature */
+
+.scrooldown {
+  position: absolute;
+  left: 48.5%;
+  bottom: 10%;
+  width: 40px;
+  height: 40px;
+  line-height: 37px;
+  background: #f4f5f9;
+  border-radius: 50%;
+  text-align: center;
+  z-index: 3;
+}
+/* fim botão feature */
+
+
+
 
 
