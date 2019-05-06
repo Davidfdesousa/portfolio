@@ -37,13 +37,15 @@ body {
 }
 
 
-.footer{
- 
+footer{
+  background-color: #353854;
+  height: auto;
+  padding-top: 50px;
 }
 
 .footer, .bg-black {
   background-color: #353854;
-  height: 250px;
+
   padding-top: 50px;
 }
 
