@@ -2,35 +2,14 @@ html,
 body {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
-  background-color: white;
+  background-color: #fff;
 }
 
 
-/* #simple-widgets {
 
-  background-image: url(../img/bg-simple-widgets.jpg);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: top center;
-  height: 938px;
 
-} */
 
-/* #download {
-  background-image: url(../img/bg-download.jpg);
-  background-size: auto;
-  background-repeat: no-repeat;
-  background-position: top center;
-} */
 
-.download {
-  background-color: #648cff;
-  clear: both;
-}
-
-.list-icons {
-  display: inline-block;
-}
 
 .swiper-container {
   width: 100%;
