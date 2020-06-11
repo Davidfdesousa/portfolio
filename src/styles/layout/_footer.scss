@@ -1,12 +1,16 @@
 // Footer 
-.box.copyright {
-    margin-top: $section-vertical-space;
-    justify-content: space-between;
-}
-
-.list-copyright {
-    li {
-        display: inline-block;
-        margin: 0 $gutter;
+footer {
+    background-color: red;
+    color: white;
+    .box.copyright {
+       
+        justify-content: space-between;
+    }
+    
+    .list-copyright {
+        li {
+            display: inline-block;
+            margin: 0 $gutter;
+        }
     }
 }
